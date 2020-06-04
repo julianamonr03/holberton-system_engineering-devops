@@ -5,5 +5,3 @@ BootFolder=$(/boot/)
 ls -a -l $CurrentFolder
 ls -a -l $ParentFolder
 ls -a -l $BootFolder
-
-
