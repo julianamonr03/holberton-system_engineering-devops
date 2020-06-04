@@ -1,7 +1,2 @@
 #!/bin/bash
-CurrentFolder=$(pwd)
-ParentFolder="$(dirname"$CurrentFolder")"
-BootFolder=$(/boot/)
-ls -a -l $CurrentFolder
-ls -a -l $ParentFolder
-ls -a -l $BootFolder
+ls -la . .. /boot
