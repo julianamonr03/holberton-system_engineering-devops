@@ -1,0 +1,6 @@
+#!/bin/bash
+CurrentFolder=pwd
+ParentFolder="$(dirname"$CurrentFolder")"
+ls -a $CurrentFolder
+ls -a $ParentFolder
+
