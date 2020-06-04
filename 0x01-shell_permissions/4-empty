@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo emacs hello
+touch hello
