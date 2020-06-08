@@ -1,0 +1,1 @@
+# In this part we are gonna lear about Shell, init files, variables and expansions
