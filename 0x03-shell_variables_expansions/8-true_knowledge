@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((50+78)) | export TRUEKNOWLEDGE
+echo $((1209+128)
