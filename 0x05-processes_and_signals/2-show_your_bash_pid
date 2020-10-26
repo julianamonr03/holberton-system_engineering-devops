@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-# Displays a list of currently running processes
-ps -aufx
+# Displays lines containing the bash word
+# shellcheck disable=SC2009
+# grep - Search specific word and execute
+ps -aufx | grep bash
