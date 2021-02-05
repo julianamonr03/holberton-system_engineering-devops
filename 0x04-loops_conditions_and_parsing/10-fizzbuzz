@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Bash script for create a Fizz Buzz
 i=1
 while [ $i -le 100 ]
 do
