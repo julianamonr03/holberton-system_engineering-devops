@@ -24,16 +24,21 @@ int infinite_while(void)
  */
 int main(void)
 {
-	pid_t child_pd = fork();
+	pid_t child_pd;
+	int num_of_proc;
 
-	if (child_pd > 0)
+	for (num_of_proc = 1; num_of_proc < 6; num_of_proc++)
 	{
-		printf("Zombie process created, PID: %d\n", child_pd);
-		sleep(1);
-	}
-	else
-	{
-		exit(0);
+		child_pd = fork();
+		if (child_pd > 0)
+		{
+			printf("Zombie process created, PID: %d\n", child_pd);
+			sleep(1);
+		}
+		else
+		{
+			exit(0);
+		}
 	}
 	infinite_while();
 	return (0);
