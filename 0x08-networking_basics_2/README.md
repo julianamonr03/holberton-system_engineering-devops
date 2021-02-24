@@ -2,12 +2,12 @@
 
 ## Resources:books:
 Read or watch:
-* [OSI Model](https://en.wikipedia.org/wiki/OSI_model)
 * [Different Types of Network](https://www.lifewire.com/lans-wans-and-other-area-networks-817376)
 * [MAC address](https://whatismyipaddress.com/mac-address)
 * [Private and public address](https://www.iplocation.net/public-vs-private-ip-address)
 * [Localhost](https://whatismyipaddress.com/localhost)
 * [TCP and UDP](https://www.howtogeek.com/190014/htg-explains-what-is-the-difference-between-tcp-and-udp/)
+* [Docker sed](https://web.archive.org/web/20171117023601/http://blog.jonathanargentiero.com/docker-sed-cannot-rename-etcsedl8ysxl-device-or-resource-busy/)
 
 ----
 ## Learning objectives:bulb:
@@ -22,7 +22,7 @@ Read or watch:
 
 ------
 
-### [0. Change your home IP(./0-change_your_home_IP)
+### [0. Change your home IP](./0-change_your_home_IP)
 
 ### [1. Show attached IPs](./1-show_attached_IPs)
 
